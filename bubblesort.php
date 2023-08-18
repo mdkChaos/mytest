@@ -38,5 +38,8 @@ $myArray = array(64, 34, 25, 12, 22, 11, 90);
 $sortedArray = bubbleSort($myArray);
 $sortedArray2 = bubbleSort2($myArray);
 echo "<pre>";
+echo "Before:<br>";
+print_r($myArray);
+echo "After:<br>";
 print_r($sortedArray);
 print_r($sortedArray2);
